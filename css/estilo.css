@@ -5,3 +5,10 @@ h1, h2, h3{
 	text-transform: uppercase;
 }
 
+h3{
+	color: #F23030;
+}
+a{
+	text-decoration: none;
+	color: #46A667;
+}
