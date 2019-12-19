@@ -1,6 +1,19 @@
 body{
 	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
+
+header div{
+	background-color: #46A667;
+	color: #F1F0F2;
+	padding: 7px;
+}
+
+header div a{
+	color: #F1F0F2;
+}
+
 h1, h2, h3{
 	text-transform: uppercase;
 }
@@ -8,7 +21,28 @@ h1, h2, h3{
 h3{
 	color: #F23030;
 }
+
 a{
 	text-decoration: none;
 	color: #46A667;
+}
+
+a:active{
+	color: #F23030;
+}
+
+.ancora a{
+	padding: 4px;
+}
+
+.ancora a:hover{
+	background-color: #46A667;
+	color: #F1F0F2;
+	padding: 4px;
+}
+
+footer{
+	background-color: #46A667;
+	color: #F1F0F2;
+	padding: 26px;
 }
