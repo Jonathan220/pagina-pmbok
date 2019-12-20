@@ -12,9 +12,14 @@ header a{
 	color: #F1F0F2;
 }
 
+header a:hover{
+	text-decoration: none;
+	color: #F1F0F2;
+}
+
 header div{
 	font-size: 1.8em;
-	padding: 30px 50px;
+	padding: 50px 60px;
 }
 
 header nav{
@@ -42,14 +47,29 @@ a:active{
 	color: #F23030;
 }
 
+a:hover{
+	text-decoration: underline;
+	color: #50BF77;
+}
+
 .ancora a{
 	padding: 4px;
 }
 
 .ancora a:hover{
-	background-color: #46A667;
+	background-color: #50BF77;
 	color: #F1F0F2;
 	padding: 4px;
+	text-decoration: none;
+}
+
+.ancora a:active{
+	color: #F2B705;
+}
+
+.topico {
+	padding: 20px 30px;
+	margin: 10px;
 }
 
 footer{
