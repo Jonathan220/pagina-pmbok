@@ -3,19 +3,30 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
-header div{
+header {
 	background-color: #46A667;
 	color: #F1F0F2;
-	padding: 7px;
 }
 
-header div a{
+header a{
 	color: #F1F0F2;
+}
+
+header div{
+	font-size: 1.8em;
+	padding: 30px 50px;
+}
+
+header nav{
+	padding: 10px;
 }
 
 h1, h2, h3{
 	text-transform: uppercase;
+}
+
+h2{
+	font-size: 0.8em;
 }
 
 h3{
