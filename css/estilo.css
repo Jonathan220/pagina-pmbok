@@ -89,6 +89,7 @@ a:hover{
 	text-decoration: none;
 }
 
+
 a:active, .ancora a:active{
 	color: #F2B705;
 }
@@ -123,4 +124,13 @@ footer{
 
 footer a:hover{
 	color: #F1F0F2;
+}
+
+.imagem{
+	width: 470px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imagem img{
+	width: 460px;
 }
